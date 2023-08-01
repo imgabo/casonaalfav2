@@ -7,7 +7,7 @@ import Formulario from "./Formulario";
 const Header = () => {
     return (
         <>
-            <div className="h-screen  relative bg-fixed bg-center bg-cover bg-header-hero ">
+            <div className="h-screen mb-12  relative bg-fixed bg-center bg-cover bg-header-hero ">
                
                 <Navbar/>
 

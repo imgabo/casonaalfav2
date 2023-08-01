@@ -5,6 +5,8 @@ import './App.css'
 import Header from './components/Header'
 import NuestroProyecto from './components/NuestroProyecto'
 import NuestroServicios from './components/NuestroServicios'
+import Proposito from './components/Proposito'
+import Footer from './components/Footer'
 
 function App() {
   const [count, setCount] = useState(0)
@@ -14,6 +16,8 @@ function App() {
       <Header/>
       <NuestroProyecto/>
       <NuestroServicios/>
+      <Proposito/>
+      <Footer/>
      
     </>
   )
