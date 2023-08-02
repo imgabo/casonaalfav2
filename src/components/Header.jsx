@@ -1,7 +1,7 @@
 import Navbar from "./Navbar";
-import bgHeader from "../assets/img/bg-header.jpg"
+
 import HeaderContenido from "./HeaderContenido";
-import Formulario from "./Formulario";
+
 
 
 const Header = () => {

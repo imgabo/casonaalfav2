@@ -7,6 +7,7 @@ import QuienesSomos from './pages/QuienesSomos.jsx';
 
 import Directivos from './pages/Directivos.jsx';
 import Instalaciones from './pages/Instalaciones.jsx';
+import Contacto from './pages/Contacto.jsx';
 
 
 const router = createBrowserRouter([
@@ -25,7 +26,11 @@ const router = createBrowserRouter([
   {
     path:"instalaciones",
     element:<Instalaciones/>
-  }
+  },
+  {
+    path:"contacto",
+    element:<Contacto/>
+  },
 ]);
 
 ReactDOM.createRoot(document.getElementById('root')).render(

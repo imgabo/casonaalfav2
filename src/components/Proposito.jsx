@@ -6,7 +6,7 @@ import Boton from "./Boton";
 const Proposito = () => {
     return (
 
-        <section className="w-full h-full  flex flex-col md:flex-row items-center justify-between p-10 gap-20">
+        <section className="w-full h-full  mb-5 flex flex-col md:flex-row items-center justify-between p-10 gap-20">
             <div className="w-full h-[20rem]    relative">
                 <img src={proposito} alt="Persona adulta viviendo feliz casa de retiro" className="h-full w-full  absolute top-0 left-0 rounded-3xl" />
                 <div className="absolute w-[200px]  bottom-[-45px] right-[-100px] ">

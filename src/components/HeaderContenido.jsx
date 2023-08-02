@@ -21,6 +21,7 @@ const HeaderContenido = () => {
 
                 </div>
                 <div className="hidden  w-full h-full  lg:flex items-center flex-col ">
+                <h1 className="text-white p-2 text-center">Contacte Con Nosotros</h1>
                     <Formulario />
                 </div>
 

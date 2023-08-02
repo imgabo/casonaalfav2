@@ -63,7 +63,7 @@ const Navbar = () => {
                     <a href="/directivos" className="text-sm font-semibold leading-6 ">
                         DIRECTIVOS
                     </a>
-                    <a href="#" className="text-sm font-semibold leading-6 ">
+                    <a href="/contacto" className="text-sm font-semibold leading-6 ">
                         CONTACTO
                     </a>
                 </Popover.Group>

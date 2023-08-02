@@ -74,7 +74,7 @@ const Instalaciones = () => {
                 <img src={proyecto1} alt="casa de retiro naval" className="h-full w-full" />
                 </div>
                 <div>
-                <img src={proyecto2} alt="casa de retiro naval" className="h-full w-full" />
+                <img src={proyecto5} alt="casa de retiro naval" className="h-full w-full" />
                 </div>
                 
             </section>
