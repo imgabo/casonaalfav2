@@ -9,7 +9,7 @@ const Proposito = () => {
         <section className="w-full h-full  flex flex-col md:flex-row items-center justify-between p-10 gap-20">
             <div className="w-full h-[20rem]    relative">
                 <img src={proposito} alt="Persona adulta viviendo feliz casa de retiro" className="h-full w-full  absolute top-0 left-0 rounded-3xl" />
-                <div class="absolute w-[200px]  bottom-[-45px] right-[-100px] ">
+                <div className="absolute w-[200px]  bottom-[-45px] right-[-100px] ">
                     <img src={proposito2} alt="Vejez en paz" className="rounded-full border-2 border-primary shadow-sm" />
                 </div>
 

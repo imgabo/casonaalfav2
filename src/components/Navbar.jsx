@@ -1,6 +1,6 @@
 
-import { Fragment, useState } from 'react'
-import { Dialog, Disclosure, Popover, Transition } from '@headlessui/react'
+import {  useState } from 'react'
+import { Dialog, Disclosure, Popover } from '@headlessui/react'
 import {
   ArrowPathIcon,
   Bars3Icon,
@@ -57,7 +57,7 @@ const Navbar = () => {
                     <a href="/somos" className="text-sm font-semibold leading-6 ">
                         QUIENES SOMOS
                     </a>
-                    <a href="#" className="text-sm font-semibold leading-6 ">
+                    <a href="/instalaciones" className="text-sm font-semibold leading-6 ">
                         INSTALACIONES
                     </a>
                     <a href="/directivos" className="text-sm font-semibold leading-6 ">

@@ -33,43 +33,43 @@ const Directivos = () => {
               
             </section> */}
 
-            <div class="container">
-                <div class="level-1 rectangle"><Integrante foto={presidente} cargo='PRESIDENTE' nombre='Sr.Juan Encina Venegas' /></div>
-                <ol class="level-2-wrapper">
+            <div className="container">
+                <div className="level-1 rectangle"><Integrante foto={presidente} cargo='PRESIDENTE' nombre='Sr.Juan Encina Venegas' /></div>
+                <ol className="level-2-wrapper">
                     <li>
-                        <div class="level-2 rectangle"><Integrante foto={boris} cargo='VICEPRESIDENTE' nombre='Sr. Boris Henriquez Fuentes' /></div>
+                        <div className="level-2 rectangle"><Integrante foto={boris} cargo='VICEPRESIDENTE' nombre='Sr. Boris Henriquez Fuentes' /></div>
 
                     </li>
                     <li>
-                        <div class="level-2 rectangle"><Integrante foto={ralf} cargo='TESORERO' nombre='Sr. Ralf Cisterna Venegas' /></div>
+                        <div className="level-2 rectangle"><Integrante foto={ralf} cargo='TESORERO' nombre='Sr. Ralf Cisterna Venegas' /></div>
 
                     </li>
                     <li>
-                        <div class="level-2 rectangle"><Integrante foto={jose} cargo='SECRETARIO' nombre='Sr. José González Cornejo' /></div>
+                        <div className="level-2 rectangle"><Integrante foto={jose} cargo='SECRETARIO' nombre='Sr. José González Cornejo' /></div>
 
                     </li>
                 </ol>
 
 
-                <ol class="level-2-wrapper-2 mt-10">
+                <ol className="level-2-wrapper-2 mt-10">
                     <li>
-                        <div class="level-2 rectangle"><Integrante foto={raul} nombre='Sr. Raúl Orellana Arancibia' /></div>
+                        <div className="level-2 rectangle"><Integrante foto={raul} nombre='Sr. Raúl Orellana Arancibia' /></div>
 
                     </li>
                     <li>
-                        <div class="level-2 rectangle"><Integrante foto={cristian} nombre='Sr. Cristian Reyes Gamboa' /></div>
+                        <div className="level-2 rectangle"><Integrante foto={cristian} nombre='Sr. Cristian Reyes Gamboa' /></div>
 
                     </li>
                     <li>
-                        <div class="level-2 rectangle"><p className="text-primary text-1xl md:text-2xl text-center">DIRECTORES </p></div>
+                        <div className="level-2 rectangle"><p className="text-primary text-1xl md:text-2xl text-center">DIRECTORES </p></div>
 
                     </li>
                     <li>
-                        <div class="level-2 rectangle"><Integrante foto={luis} nombre='Sr. Luis Ortiz Rosales' /></div>
+                        <div className="level-2 rectangle"><Integrante foto={luis} nombre='Sr. Luis Ortiz Rosales' /></div>
 
                     </li>
                     <li>
-                        <div class="level-2 rectangle "><Integrante foto={daniel} nombre='Sr. Daniel Carbone Vaco' /></div>
+                        <div className="level-2 rectangle "><Integrante foto={daniel} nombre='Sr. Daniel Carbone Vaco' /></div>
 
                     </li>
                 </ol>

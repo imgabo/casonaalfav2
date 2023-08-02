@@ -4,8 +4,9 @@ import App from './App.jsx'
 import './index.css'
 import { RouterProvider, createBrowserRouter } from 'react-router-dom';
 import QuienesSomos from './pages/QuienesSomos.jsx';
-import Header from './components/Header.jsx';
+
 import Directivos from './pages/Directivos.jsx';
+import Instalaciones from './pages/Instalaciones.jsx';
 
 
 const router = createBrowserRouter([
@@ -21,6 +22,10 @@ const router = createBrowserRouter([
     path: "directivos",
     element: <Directivos/>,
   },
+  {
+    path:"instalaciones",
+    element:<Instalaciones/>
+  }
 ]);
 
 ReactDOM.createRoot(document.getElementById('root')).render(
