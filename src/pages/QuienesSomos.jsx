@@ -15,22 +15,10 @@ const QuienesSomos = () => {
             {/* contenido */}
             <section className="h-full w-full p-3 md:p-20 flex flex-col lg:flex-row items-center justify-between">
                 <div className="h-full w-full flex flex-col space-y-8 text-justify font-semibold pr-5">
-                    <p>Nuestra historia de vida se forja en el año 1978 cuando éramos
-                        sólo unos jóvenes entre 14 y 18 años (Gte Nuñez 14 años el
-                        menor de los nuestros), oriundos de las más diversas ciudades
-                        de Chile, con un futuro lleno de sueños y esperanzas de
-                        integrar las dotaciones del Cuerpo de Infantería de Marina de
-                        la Armada de Chile. </p>
-                    <p>Al amanecer de un día de octubre debíamos cumplir con
-                        nuestra primera misión como Infantes de Marina al ser
-                        trasladados al extremo austral, viviendo nuestra mayor
-                        experiencia de vida en las islas en litigio con la República
-                        Argentina, produciéndose una metamorfosis de Grumetes a
-                        Soldados del Mar.</p>
+                    <p>Nuestra historia de vida se forja en el año 1978 cuando éramos sólo unos jóvenes entre 14 y 18 años, oriundos de las más diversas ciudades de Chile, con un futuro lleno de sueños y esperanzas de integrar las dotaciones del Cuerpo de Infantería de Marina de la Armada de Chile.</p>
+                    <p>Como Grumetes en formación académica y militar en octubre del año 1978 fuimos embarcados y trasladados al extremo austral de Chile, viviendo nuestra mayor experiencia de vida en las islas en litigio con la República Argentina, produciéndose una metamorfosis pasando en un corto tiempo de Grumetes a Soldados del Mar.</p>
 
-                    <p>Esta historia de vida nos dejó un legado de hermandad que
-                        atesoramos hasta el día de hoy, ya todos en la tercera edad de
-                        nuestras vidas, forjando nuestro proyecto de vida</p>
+                    <p>Esta historia de vida nos dejó un legado de hermandad que atesoramos hasta el día de hoy, actualmente todos en la tercera edad de nuestras vidas, forjando nuestro proyecto de vida.</p>
                 </div>
                 <div className="h-full w-[20rem] md:w-[30rem] lg:w-[50rem]">
                     <img src={ugcim} alt="UGCIM LOGO" />
@@ -93,7 +81,7 @@ const QuienesSomos = () => {
             </section>
             <section className="h-full w-full  flex flex-col items-center md:items-start  mt-20   font-semibold p-4 md:p-20">
                 <p className="text-primary text-1xl md:text-2xl">Carta Sr. Presidente Directorio</p>
-                <p className="text-secondary text-2xl md:text-6xl">Don Juan Encina Venegas</p>
+                <p className="text-secondary text-2xl md:text-6xl">Juan Encina Venegas</p>
                 <div className="flex flex-col lg:flex-row justify-between item gap-7 mt-20">
                     <div className="text-justify flex flex-col space-y-4 w-full lg:w-[50rem] ">
                         <p>Nuestra Asociación es una organización privada sin fines de lucro, creada para
@@ -109,12 +97,11 @@ const QuienesSomos = () => {
                             esperanza, vivir dignamente con amor al prójimo, ayudándonos con nuestras propias
                             limitaciones, siendo solidarios y capaces de enfrentar nuestra tercera y cuarta edad
                             disfrutando cada momento de nuestra vida.</p>
-                        <p>Lucharemos cada día oír, hacer realidad nuestro proyecto de vida, no es y no sera fácil,
-                            pero tenemos la convicción que somos capaces de lograr nuestro objetivo.</p>
+                        <p>Lucharemos cada día por hacer realidad nuestro proyecto de vida, no es y no será fácil, pero tenemos la convicción que somos capaces de lograr nuestro objetivo.</p>
                         <p>Agradezco a cada miembro del directorio, socios y asesores por su espíritu de
                             cooperación por las metas alcanzadas, aún nos resta un largo camino por avanzar,
                             pero con su ímpetu solidario, la asesoría de profesionales en el área, privados con
-                            fondos de inversión y el Estado Chileno, capaz de generar iniciativas públicas para
+                            fondos de inversión y el Estado Chileno capaz de generar iniciativas públicas para
                             nuestra población de adultos mayores, Dios mediante nos brinde sabiduría y condición
                             de salud para hacer realidad nuestros proyectos de vida y dejar un legado a nuevas
                             generaciones de adultos mayores de lograr sus sueños y metas si se lo proponen.</p>

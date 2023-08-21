@@ -13,22 +13,19 @@ const Footer = () => {
                 <p>INFORMACIÓN DE CONTACTO</p>
                 <ul>
                     <li>contacto@casonaalfa.cl</li>
-                    <li>+569 1234 5678</li>
                 </ul>
             </div>
             <div className=" h-full w-full   hidden md:flex flex-col items-center md:items-start  justify-start pb-5  gap-6 text-white font-semibold text-left">
                 <p>NAVEGACIÓN</p>
                 <ul>
-                    <li>INICIO</li>
-                    <li>QUIENES SOMOS</li>
-                    <li>INSTALACIONES</li>
-                    <li>DIRECTIVOS</li>
-                    <li>CONTACTO</li>
+                    <li className="hover:underline"><a href="/">INICIO</a></li>
+                    <li className="hover:underline"><a href="/somos">QUIENES SOMOS</a></li>
+                    <li className="hover:underline"><a href="/instalaciones">INSTALACIONES</a></li>
+                    <li className="hover:underline"><a href="/directivos">DIRECTIVOS</a></li>
+                    <li className="hover:underline"><a href="/contacto">CONTACTO</a></li>
                 </ul>
             </div>
-            <div className=" h-full w-full  flex flex-col items-center md:items-start  justify-start pb-3 gap-6 text-white font-semibold">
-                <p>REDES SOCIALES</p>
-            </div>
+           
         </footer>
 
 

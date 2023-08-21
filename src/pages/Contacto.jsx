@@ -15,19 +15,21 @@ const Contacto = () => {
                 <h1 className="text-primary font-semibold text-4xl md:text-6xl lg:text-8xl">CONTACTO</h1>
             </section>
             {/* CONTENIDO */}
-            <section className="h-full w-full p-4 md:p-20 flex flex-1 md:flex-row items-start justify-between">
+            <section className="h-full w-full p-4 md:p-20 flex flex-col md:flex-row items-center gap-5 md:items-start justify-between">
                 <div className="flex flex-col">
                     <h3 className="text-left">Complete el siguiente formulario de contacto y en breve tomaremos contacto con usted</h3>
                      <Formulario/>
                    
                 </div>
-                <div className=" h-80 w-[70%] flex flex-col  items-center relative ">
+                <div className=" h-full w-[70%] flex flex-col  items-center relative ">
                     <p>INFORMACIÓN DE CONTACTO</p>
+                    <p className="font-semibold">juan.encina@casonaalfa.cl</p>
+                    <p className="font-semibold">boris.henriquez@casonaalfa.cl</p>
                     <p className="font-semibold">contacto@casonaalfa.cl</p>
-                    <p className="font-semibold text-left">+569 1234 5678</p>
-                    <div className="absolute bottom-0">REDES SOCIALES</div>
+                   
+           
                 </div>
-                <div className="h-80 w-full flex items-center justify-center">
+                <div className=" h-full md:h-80 w-full flex items-center justify-center">
                     <img src={logo} alt="casona alfa" className="h-[90%] w-auto"/>
                 </div>
             

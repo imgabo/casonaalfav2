@@ -9,7 +9,7 @@ const Proposito = () => {
         <section className="w-full h-full  mb-5 flex flex-col md:flex-row items-center justify-between p-10 gap-20">
             <div className="w-full h-[20rem]    relative">
                 <img src={proposito} alt="Persona adulta viviendo feliz casa de retiro" className="h-full w-full  absolute top-0 left-0 rounded-3xl" />
-                <div className="absolute w-[200px]  bottom-[-45px] right-[-100px] ">
+                <div className="absolute w-[200px]  hidden md:block bottom-[-45px] right-[-100px] ">
                     <img src={proposito2} alt="Vejez en paz" className="rounded-full border-2 border-primary shadow-sm" />
                 </div>
 
@@ -19,7 +19,7 @@ const Proposito = () => {
                     <h1 className="text-2xl md:text-5xl font-semibold text-left text-pine-green absolute z-10">PROPOSITO</h1>
                     <h1 className=" text-3xl md:text-6xl font-semibold text-right text-white mr-10 absolute bottom-4 right-0 " style={{ textShadow: '-1px -1px 0 rgba(0,0,0,0.2), 1px -1px 0 rgba(0,0,0,0.2), -1px 1px 0 rgba(0,0,0,0.2), 1px 1px 0 rgba(0,0,0,0.2)' }}>PROPOSITO</h1>
                 </div>
-                <p className="font-semibold mr-10 text-justify"> Buscamos un espacio acogedor, para llegar a una vejez única,
+                <p className="font-semibold mr-10 text-justify"> Buscamos un espacio acogedor para llegar a una vejez única,
                     donde reine la paz, la armonía, el acompañamiento, la camaradería,
                     alegría, la sociabilidad y evitar vivir la condición de abandono y
                     soledad.</p>
@@ -30,7 +30,7 @@ const Proposito = () => {
                     <li><p className="text-black font-semibold text-sm ">EXPERIENCIA Y COMPROMISO</p></li>
                 </ul>
                 <div className=" w-full md:w-[22rem] h-full mt-3 z-40">
-                    <Boton     titulo='CONTÁCTANOS >>' toLink='#' />
+                    <Boton     titulo='CONTÁCTANOS >>' toLink='/contacto' />
                 </div>
                 
             </div>

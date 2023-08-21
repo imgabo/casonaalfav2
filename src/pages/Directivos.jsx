@@ -25,8 +25,8 @@ const Directivos = () => {
             </section>
             {/* contenido */}
             <section className="h-full w-full  flex flex-col items-center md:items-start    font-semibold p-4 md:p-20">
-                <p className="text-primary text-5xl md:text-2xl">Equipo de </p>
-                <p className="text-secondary text-5xl md:text-6xl">Directivos</p>
+                
+                <p className="text-secondary text-5xl md:text-6xl">DIRECTORIO</p>
             </section>
 
             {/* <section className="h-full   w-full flex flex-col items-center justify-center  p-4 md:p-20">

@@ -42,8 +42,7 @@ const Instalaciones = () => {
 
                     <article>
                         <h2 className="text-primary text-left text-4xl font-semibold">OBJETIVO DEL PROYECTO</h2>
-                        <p className="text-justify">Desarrollar un proyecto de innovación social para crear casas de reposo, sin fines de lucro para adultos mayores buscando las herramientas necesarias para que se puedan autifinanciar con sus propios recursos, privados, subvenciones del Estado
-                            y desarrollar una actividad comercial de acuerdo a sus propias capacidades.</p>
+                        <p className="text-justify">Desarrollar un proyecto de innovación social para crear casas de reposo, sin fines de lucro para adultos mayores buscando las herramientas necesarias para que se puedan autofinanciar con sus propios recursos, de privados, subvenciones del Estado y desarrollar una actividad comercial de acuerdo a sus propias capacidades.</p>
                     </article>
                 </div>
                 <div className="h-full w-full flex items-center gap-7 flex-col ">
