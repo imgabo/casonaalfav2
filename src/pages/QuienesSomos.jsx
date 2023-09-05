@@ -79,10 +79,10 @@ const QuienesSomos = () => {
                 <p>Experiencias y vivencias</p>
                 <p>Respeto mutuo y hermandad</p>
             </section>
-            <section className="h-full w-full  flex flex-col items-center md:items-start  mt-20   font-semibold p-4 md:p-20">
+            <section className="h-full w-full  flex flex-col items-center xl:items-start  mt-20   font-semibold p-4 md:p-20">
                 <p className="text-primary text-1xl md:text-2xl">Carta Sr. Presidente Directorio</p>
-                <p className="text-secondary text-2xl md:text-6xl">Juan Encina Venegas</p>
-                <div className="flex flex-col lg:flex-row justify-between item gap-7 mt-20">
+                <p className="text-secondary text-3xl md:text-5xl lg:text-6xl">Juan Encina Venegas</p>
+                <div className="flex flex-col xl:flex-row justify-between item gap-7 mt-20">
                     <div className="text-justify flex flex-col space-y-4 w-full lg:w-[50rem] ">
                         <p>Nuestra Asociación es una organización privada sin fines de lucro, creada para
                             contribuir y aportar una solución imperante en nuestra sociedad hacia los adultos
@@ -107,8 +107,8 @@ const QuienesSomos = () => {
                             generaciones de adultos mayores de lograr sus sueños y metas si se lo proponen.</p>
                         <p>Fieles a nuestro lema “ORGULLO Y COMPROMISO”</p>
                     </div>
-                    <div className="w-[340px] h-auto ">
-                        <img src={presidente} alt="presidente casonaalfa" />
+                    <div className="w-full xl:w-[340px] h-auto flex justify-center xl:block">
+                        <img src={presidente} alt="presidente casonaalfa" className="w-[200px] xl:w-full" />
                     </div>
                 </div>
             </section>
